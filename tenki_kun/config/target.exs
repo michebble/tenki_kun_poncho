@@ -67,8 +67,7 @@ config :mdns_lite,
   # is "nerves-<4 digit serial#>.local".  mdns_lite also advertises
   # "nerves.local" for convenience. If more than one Nerves device is on the
   # network, delete "nerves" from the list.
-
-  host: [:hostname, "nerves"],
+  host: [:hostname, "tenki_kun"],
   ttl: 120,
 
   # Advertise the following services over mDNS.
